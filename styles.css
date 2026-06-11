@@ -1,14 +1,14 @@
-/* TONEHOME - DESIGN SYSTEM */
+/* GRAVIDAFORT - DESIGN SYSTEM */
 :root {
-    --bg-primary: #0A0D14; /* Deep carbon black-blue */
-    --bg-card: #131924; /* Steel gray card background */
+    --bg-primary: #120D16; /* Deep elegant warm dark plum */
+    --bg-card: #1C1422; /* Warm dark mauve card background */
     --text-main: #FFFFFF;
-    --text-muted: #8E9BAE; /* Soft blue-gray for descriptions */
+    --text-muted: #A898AC; /* Soft warm lavender-gray */
     
-    /* Sport Accents */
-    --accent-gold: #F5A623; /* Warm gold/yellow for active elements */
-    --accent-cyan: #00E5FF; /* Cyan for tag outlines and highlights */
-    --accent-hover: #D88E15;
+    /* Feminine Accents */
+    --accent-gold: #FF94A8; /* Premium Rose Gold / Blush Pink */
+    --accent-cyan: #D4B3FF; /* Glowing soft lavender */
+    --accent-hover: #FF6E8D; /* Warm rose pink */
     
     /* Layout */
     --border-color: rgba(255, 255, 255, 0.05);

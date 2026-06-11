@@ -1,5 +1,5 @@
 
-// BANCO DE DADOS DE TREINOS - TONEHOME
+// BANCO DE DADOS DE TREINOS - GRAVIDAFORT
 const DATABASE = {
     modules: [
         {

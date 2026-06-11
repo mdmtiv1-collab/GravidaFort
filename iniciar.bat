@@ -1,8 +1,8 @@
 @echo off
 chcp 65001 > nul
-title ToneHome - Servidor de Treino Local
+title GravidaFort - Servidor de Treino Local
 echo =========================================================
-echo       ToneHome - Área de Membros de Treino em Casa
+echo       GravidaFort - Área de Membros para Gestantes
 echo =========================================================
 echo.
 echo Verificando ambiente local...

@@ -53,7 +53,7 @@ server.on('error', (err) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`Servidor local do ToneHome iniciado com sucesso!`);
+    console.log(`Servidor local do GravidaFort iniciado com sucesso!`);
     console.log(`Endereço: http://localhost:${PORT}`);
     console.log('Pressione Ctrl+C para encerrar.');
     openBrowser(`http://localhost:${PORT}`);
