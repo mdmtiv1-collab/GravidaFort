@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToneHome - Fortalecimento Inteligente</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Meta Referrer for YouTube Embed fix on local files -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- HEADER / BRANDING -->
+        <header class="app-header">
+            <div class="brand-area">
+                <span class="brand-subtitle">Plataforma Exclusiva</span>
+                <h1 class="brand-title">ToneHome</h1>
+            </div>
+            <div class="user-profile">
+                <div class="avatar">M</div>
+                <div class="user-meta">
+                    <span class="user-name">Membro Prime</span>
+                    <span class="user-status">Treino Ativo</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- SELETOR DE MÓDULOS (Topo) -->
+        <div class="modules-bar" id="modules-tabs">
+            <!-- Injetado dinamicamente via JS -->
+        </div>
+
+        <!-- LAYOUT PRINCIPAL -->
+        <main class="main-layout">
+            
+            <!-- MENU LATERAL / NAVEGAÇÃO DE CONTEÚDO -->
+            <aside class="sidebar">
+                
+                <!-- SELETOR DE SUBMÓDULOS (Semanas da Calistenia) -->
+                <div class="submodules-tabs id-submodules" id="submodules-tabs">
+                    <!-- Injetado dinamicamente via JS -->
+                </div>
+
+                <!-- BUSCA NA BIBLIOTECA (Apenas para Módulo de GIFs) -->
+                <div class="search-container hidden" id="search-container">
+                    <input type="text" class="search-input" id="search-input" placeholder="🔍 Buscar exercício por nome...">
+                </div>
+
+                <!-- LISTA DE AULAS FILTRADA -->
+                <div class="nav-section">
+                    <h3 class="section-title">Exercícios / Vídeos</h3>
+                    <ul class="lesson-list" id="lessons-container">
+                        <!-- Injetado dinamicamente via JS -->
+                    </ul>
+                </div>
+
+            </aside>
+
+            <!-- ÁREA DE EXIBIÇÃO DO CONTEÚDO (VIDEO PLAYER OU GIF PLAYER) -->
+            <section class="content-display" id="player-section">
+                
+                <!-- CONTAINER PRINCIPAL DO VIEWER -->
+                <div class="viewer-card">
+                    
+                    <!-- WRAPPER DO PLAYER DE VÍDEO (YouTube / Google Drive) -->
+                    <div class="video-wrapper" id="video-wrapper">
+                        <div class="video-container">
+                            <iframe id="video-player" src="" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- WRAPPER DO PLAYER DE GIF (Loop de exercícios) -->
+                    <div class="gif-wrapper hidden" id="gif-wrapper">
+                        <img id="gif-player" src="" alt="Demonstração do Exercício" class="gif-player">
+                    </div>
+
+                    <!-- DETALHES DA AULA -->
+                    <div class="lesson-details">
+                        <span class="lesson-tag" id="display-lesson-module">Módulo</span>
+                        <h2 class="lesson-title" id="display-lesson-title">Carregando treino...</h2>
+                        <p class="lesson-desc" id="display-lesson-desc">Carregando detalhes...</p>
+                        
+                        <!-- AVISO / ORIENTAÇÃO GESTANTES -->
+                        <div class="pregnancy-alert-card hidden" id="pregnancy-alert">
+                            <div class="pregnancy-alert-header">
+                                <span class="pregnancy-alert-icon" id="pregnancy-icon">🤰</span>
+                                <h4 class="pregnancy-alert-title" id="pregnancy-title">Orientação para Gestantes</h4>
+                            </div>
+                            <p class="pregnancy-alert-text" id="display-pregnancy-text">Carregando orientação...</p>
+                        </div>
+                        
+                        <div class="concept-card">
+                            <h4 class="concept-title">Dica de Respiração & Execução:</h4>
+                            <p class="concept-text" id="display-concept-text">Carregando orientação...</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="app-footer">
+            <p>© 2026 ToneHome • Todos os direitos reservados. Treine com segurança e consulte um profissional de educação física antes de iniciar.</p>
+        </footer>
+
+    </div>
+
+    <!-- MODAL DE AVISO DE PROTOCOLO LOCAL -->
+    <div id="protocol-warning" class="warning-overlay hidden">
+        <div class="warning-card">
+            <span class="warning-icon">⚠️</span>
+            <h2 class="warning-title">Modo de Visualização Direta</h2>
+            <p class="warning-text">
+                Você abriu o ToneHome diretamente pelo arquivo HTML local. Por questões de segurança do Google Drive e do YouTube, <strong>os vídeos e os GIFs não carregarão</strong> a partir deste modo de visualização.
+            </p>
+            <div class="warning-steps">
+                <div class="warning-step-item">
+                    <span class="warning-step-number">1</span>
+                    <span class="warning-step-text">Feche esta aba do seu navegador.</span>
+                </div>
+                <div class="warning-step-item">
+                    <span class="warning-step-number">2</span>
+                    <span class="warning-step-text">Abra a pasta do projeto e dê um duplo-clique no arquivo <strong>iniciar.bat</strong>.</span>
+                </div>
+                <div class="warning-step-item">
+                    <span class="warning-step-number">3</span>
+                    <span class="warning-step-text">O servidor local iniciará de forma automática e abrirá a página no endereço seguro (localhost:3082).</span>
+                </div>
+            </div>
+            <div class="warning-btn-group">
+                <button class="warning-btn-primary" onclick="window.close() || alert('Por favor, feche esta aba manualmente no seu navegador.')">Entendi, vou fechar</button>
+                <button class="warning-btn-secondary" onclick="document.getElementById('protocol-warning').classList.add('hidden')">Continuar apenas para leitura (Sem Vídeos)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Link -->
+    <script src="app.js"></script>
+</body>
+</html>
