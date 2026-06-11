@@ -9,49 +9,49 @@ const DATABASE = {
             type: "youtube",
             submodules: [
     {
-        "title": "Semana 1 – Base & Postura",
+        "title": "Semana 1 – Costas & Postura",
         "lessons": [
             {
-                "title": "Dia 1 - Costas e Ombros Base",
+                "title": "Dia 1 - Costas e Ombros Rápido",
                 "video": "AI5put7LYCc",
-                "desc": "Treino de costas para grávidas, fortalecendo a região torácica e melhorando a postura.",
-                "tip": "Mantenha o peito aberto e os ombros alinhados ao realizar as puxadas."
+                "desc": "Treino leve de costas em casa para gestantes, melhorando a postura e fortalecendo os braços.",
+                "tip": "Mantenha o peito aberto e puxe simulando asas, sem forçar o pescoço."
             },
             {
-                "title": "Dia 2 - Alívio e Força Lombar",
-                "video": "hBBLGL5wBUQ",
-                "desc": "Exercícios práticos para alívio e fortalecimento da região lombar de forma segura.",
-                "tip": "Respire de forma profunda e não curve excessivamente a coluna."
-            },
-            {
-                "title": "Dia 3 - Costas com Pesos",
+                "title": "Dia 2 - Fortalecimento com Pesinhos",
                 "video": "akWE4nTh9Ac",
-                "desc": "Treino de fortalecimento de costas e ombros usando garrafas ou halteres leves.",
-                "tip": "Controle a descida do peso com suavidade para maior ativação muscular."
+                "desc": "Treino em casa de costas e ombros usando garrafas d'água ou pesinhos leves.",
+                "tip": "Mantenha o movimento sob controle na descida para ativar bem a musculatura."
             },
             {
-                "title": "Dia 4 - Alinhamento Postural",
+                "title": "Dia 3 - Postura sem Dores",
                 "video": "1RSbIQK2h7k",
-                "desc": "Série focada na postura, prevenindo dores nas costas e fortalecendo a cadeia posterior.",
-                "tip": "Sinta a contração suave e o alinhamento das escápulas atrás."
+                "desc": "Exercícios simples de braços e costas focados em eliminar a flacidez e dores posturais.",
+                "tip": "Respire de forma calma e constante durante cada movimento."
             },
             {
-                "title": "Dia 5 - Prevenção de Dores",
-                "video": "BHesJzNgUK8",
-                "desc": "Exercícios específicos para estabilidade do quadril e prevenção de dores comuns da gestação.",
-                "tip": "Faça os movimentos de forma lenta e concentrada."
+                "title": "Dia 4 - Costas sem Equipamentos",
+                "video": "7XoHx0Ly3pY",
+                "desc": "Exercícios de fortalecimento de costas usando apenas o peso do próprio corpo em casa.",
+                "tip": "Foque na ativação das escápulas ao contrair as costas."
             },
             {
-                "title": "Dia 6 - Fortalecimento Lombar",
-                "video": "9WCvEU8ygFY",
-                "desc": "Treino completo para fortalecimento lombar e das costas durante a gestação.",
-                "tip": "Alinhe a cabeça com o pescoço ao realizar as flexões de tronco."
+                "title": "Dia 5 - Ombros e Costas Livres",
+                "video": "6Qlx-vCD59s",
+                "desc": "Melhor treino de membros superiores para realizar em casa de forma confortável.",
+                "tip": "Não force as articulações além do limite confortável da gestação."
             },
             {
-                "title": "Dia 7 - Estabilidade Geral",
-                "video": "mXQqsVuFqMQ",
-                "desc": "Exercícios de força e mobilidade geral para fechar a semana com o corpo equilibrado.",
-                "tip": "Mantenha os joelhos levemente flexionados para ajudar na estabilização."
+                "title": "Dia 6 - Braços com Faixa Elástica",
+                "video": "gPBgtuLhyaE",
+                "desc": "Exercícios para fortalecer e tonificar os braços usando faixas elásticas simples em casa.",
+                "tip": "Ajuste a tensão da faixa para um nível leve a moderado."
+            },
+            {
+                "title": "Dia 7 - Postura e Tronco Forte",
+                "video": "749wxHbrOKc",
+                "desc": "Exercícios práticos para fortalecer braços, ombros e as costas de forma descomplicada.",
+                "tip": "Faça em um tapete ou colchonete para manter a estabilidade."
             }
         ]
     },
@@ -59,46 +59,46 @@ const DATABASE = {
         "title": "Semana 2 – Membros Superiores",
         "lessons": [
             {
-                "title": "Dia 1 - Ombros e Bíceps",
+                "title": "Dia 1 - Exercícios com Halteres",
                 "video": "nnpfdgNkye4",
-                "desc": "Exercícios com halteres leves para fortalecimento seguro de braços e ombros.",
-                "tip": "Escolha pesos leves que permitam de 10 a 15 repetições de forma confortável."
+                "desc": "Exercícios com pesos leves ou garrafas para manter os braços e ombros ativos na gravidez.",
+                "tip": "Escolha pesos bem leves que permitam fazer as repetições sem prender a respiração."
             },
             {
-                "title": "Dia 2 - Braços com Faixa",
-                "video": "gPBgtuLhyaE",
-                "desc": "Exercícios para tonificar os braços usando faixas elásticas de resistência.",
-                "tip": "Controle a tensão da faixa elástica durante todo o percurso."
-            },
-            {
-                "title": "Dia 3 - Fortalecimento de Peitoral",
-                "video": "749wxHbrOKc",
-                "desc": "Exercícios adaptados para fortalecimento de peito, braços e ombros em casa.",
-                "tip": "Empurre os braços com controle e sem travar a respiração."
-            },
-            {
-                "title": "Dia 4 - Ombros Saudáveis",
+                "title": "Dia 2 - Ombros e Braços Miniband",
                 "video": "8w8jNoG5UFQ",
-                "desc": "Série rápida com miniband para ativação e fortalecimento dos braços e ombros.",
-                "tip": "Mantenha a postura bem ereta e o abdômen suavemente ativo."
+                "desc": "Série com mini elásticos para ativação muscular rápida e segura de membros superiores.",
+                "tip": "Mantenha as costas retas e o tronco firme durante a abertura do elástico."
             },
             {
-                "title": "Dia 5 - Braços Funcionais",
+                "title": "Dia 3 - Superior Funcional Leve",
                 "video": "w8adcEPm2jk",
-                "desc": "Uso de fitas ou faixas para fortalecimento de braços e costas sem peso extra.",
-                "tip": "Deixe o corpo inclinado de forma confortável e faça a puxada."
+                "desc": "Treino funcional simples com elásticos ou peso do corpo para braços e postura.",
+                "tip": "Priorize a respiração contínua e a execução controlada."
             },
             {
-                "title": "Dia 6 - Ativação de Superiores",
+                "title": "Dia 4 - Força e Postura em Casa",
                 "video": "xdwX3blGIYs",
-                "desc": "Exercícios educativos para ativação e força dos braços e postura na gravidez.",
-                "tip": "Respire de forma contínua, sem prender o ar durante as contrações."
+                "desc": "Exercícios suaves para fortalecer os braços e ombros sem sobrecarregar as articulações.",
+                "tip": "Mantenha a cabeça alinhada com a coluna, olhando para frente."
             },
             {
-                "title": "Dia 7 - Desafio de Braços",
-                "video": "15w4Zn9a3pc",
-                "desc": "Treino focado em resistência de braços e orientação geral sobre atividade física segura.",
-                "tip": "Se sentir cansaço excessivo, faça pausas e beba água."
+                "title": "Dia 5 - Ativação Muscular Leve",
+                "video": "QbS-A9C2Cns",
+                "desc": "Exercícios fáceis de braços e tronco para manter o tônus muscular em dia.",
+                "tip": "Aproveite para focar em respirações profundas e lentas."
+            },
+            {
+                "title": "Dia 6 - Exercícios 1º Trimestre",
+                "video": "eNi4t30fV08",
+                "desc": "Treino de braços e mobilidade adaptado para os primeiros meses de gestação.",
+                "tip": "Foque no bem-estar geral e faça pausas sempre que necessário."
+            },
+            {
+                "title": "Dia 7 - Superior e Alongamento",
+                "video": "WzyVz0zoZJ0",
+                "desc": "Treino completo de membros superiores focado em força e flexibilidade para o dia a dia.",
+                "tip": "Dê o seu melhor respeitando os limites da sua flexibilidade atual."
             }
         ]
     },
@@ -106,93 +106,93 @@ const DATABASE = {
         "title": "Semana 3 – Membros Inferiores",
         "lessons": [
             {
-                "title": "Dia 1 - Pernas com Peso Corporal",
-                "video": "M6-n79OfEwA",
-                "desc": "Treino de perna completo focado em glúteos e coxas usando apenas o peso corporal.",
-                "tip": "Ao agachar, projete o quadril para trás como se fosse sentar em uma cadeira."
+                "title": "Dia 1 - Pernas e Glúteos Base",
+                "video": "Q7uoCu5dCyc",
+                "desc": "Treino completo de pernas e glúteos em casa focado na estabilidade da gestante.",
+                "tip": "Ao agachar, mande o quadril para trás e mantenha o peito aberto."
             },
             {
-                "title": "Dia 2 - Tonificação de Coxas",
-                "video": "y-o9fH99VTA",
-                "desc": "Exercícios de fortalecimento de pernas e glúteos de baixo impacto.",
-                "tip": "Mantenha os joelhos alinhados com a ponta dos pés durante o agachamento."
-            },
-            {
-                "title": "Dia 3 - Glúteos Firmes",
+                "title": "Dia 2 - Fortalecimento de Pernas",
                 "video": "Fy7_LWh04uo",
-                "desc": "Seleção dos 5 melhores exercícios de pernas e glúteos para grávidas em casa.",
-                "tip": "Apoie-se em uma parede ou cadeira se precisar de mais equilíbrio."
+                "desc": "Os 5 melhores exercícios de perna e glúteo para realizar em casa de forma segura.",
+                "tip": "Use uma parede ou cadeira para apoio e equilíbrio adicionais se necessário."
             },
             {
-                "title": "Dia 4 - Fortalecimento Base",
-                "video": "VZ9IFOJ26OA",
-                "desc": "Rotina segura de pernas recomendada para fortalecimento seguro na gestação.",
-                "tip": "Faça os agachamentos em amplitude confortável, sem forçar as articulações."
+                "title": "Dia 3 - Coxas Firmes sem Peso",
+                "video": "M6-n79OfEwA",
+                "desc": "Exercícios para coxas e bumbum usando apenas o peso do próprio corpo no colchonete.",
+                "tip": "Mantenha o joelho alinhado com a ponta dos pés durante o agachamento."
             },
             {
-                "title": "Dia 5 - Pernas na Parede",
+                "title": "Dia 4 - Fortalecimento de Coxas",
+                "video": "y-o9fH99VTA",
+                "desc": "Treino focado em tonificar as pernas e melhorar o retorno venoso (circulação).",
+                "tip": "Faça movimentos lentos para ajudar a bombear o sangue de volta das pernas."
+            },
+            {
+                "title": "Dia 5 - Glúteos Estáveis",
+                "video": "lsl_VaA7-MA",
+                "desc": "Exercícios fáceis de glúteos e pernas para proteger o quadril na gravidez.",
+                "tip": "Apoie os joelhos em um colchonete confortável ou almofada."
+            },
+            {
+                "title": "Dia 6 - Glúteo em Quatro Apoios",
+                "video": "Lz5rYFHwPdg",
+                "desc": "Exercício clássico de quatro apoios adaptado para gestantes com foco em bumbum.",
+                "tip": "Não deixe a barriga cair excessivamente; mantenha a coluna alinhada."
+            },
+            {
+                "title": "Dia 7 - Fortalecimento de Base",
                 "video": "rEwLAtFq56g",
-                "desc": "Fortalecimento seguro e estável de pernas utilizando apoios e parede.",
-                "tip": "Mantenha as costas apoiadas para aliviar a carga da lombar."
-            },
-            {
-                "title": "Dia 6 - Força de Base",
-                "video": "eNi4t30fV08",
-                "desc": "Exercícios de pernas voltados para fortalecimento e estabilização de quadril.",
-                "tip": "Mantenha os movimentos fluidos, com controle e sem trancos."
-            },
-            {
-                "title": "Dia 7 - Pilates para Pernas",
-                "video": "KrcOkOsSP-k",
-                "desc": "Trabalho de fortalecimento muscular de coxas e glúteos através do Pilates clínico.",
-                "tip": "Concentre-se na estabilidade do quadril durante cada movimento."
+                "desc": "Exercícios práticos de pernas para manter a base e as articulações fortes.",
+                "tip": "Respire de forma controlada e evite trancos nos agachamentos."
             }
         ]
     },
     {
-        "title": "Semana 4 – Fortalecimento Integrado",
+        "title": "Semana 4 – Treino Integrado",
         "lessons": [
             {
-                "title": "Dia 1 - Circuito Completo",
-                "video": "kB1MZwchgyE",
-                "desc": "Circuito de baixo impacto focado no fortalecimento geral do corpo.",
-                "tip": "Respeite o seu ritmo de cansaço e beba água em pequenos goles."
-            },
-            {
-                "title": "Dia 2 - Full Body Gestante",
-                "video": "WzyVz0zoZJ0",
-                "desc": "Série para trabalhar pernas, braços e costas de forma integrada em casa.",
-                "tip": "Mantenha uma respiração lenta e controlada durante todo o circuito."
-            },
-            {
-                "title": "Dia 3 - Academia em Casa",
+                "title": "Dia 1 - Corpo Todo sem Impacto",
                 "video": "3RssxPFS_io",
-                "desc": "Treino completo para fortalecimento global do corpo da gestante.",
-                "tip": "Foque na qualidade do movimento e não na velocidade."
+                "desc": "Treino completo em casa para o corpo todo, ideal para ganho de energia e fortalecimento.",
+                "tip": "Realize no seu próprio ritmo, respirando continuamente."
             },
             {
-                "title": "Dia 4 - Pilates Clínico Global",
-                "video": "4L23h1N5U0I",
-                "desc": "Aula completa para fortalecimento global e alongamento pós-treino.",
-                "tip": "Sinta cada grupo muscular trabalhando com controle postural."
+                "title": "Dia 2 - Funcional sem Salto",
+                "video": "edjipB5a5Hk",
+                "desc": "Exercícios integrados de força e mobilidade em casa sem nenhum tipo de salto.",
+                "tip": "Mantenha as solas dos pés bem firmes no chão em todos os exercícios."
             },
             {
-                "title": "Dia 5 - Pilates Base",
+                "title": "Dia 3 - Fortalecimento Aeróbico",
+                "video": "NOJQwTw6pAM",
+                "desc": "Treino dinâmico leve para manter a circulação ativa e fortalecer o corpo de forma suave.",
+                "tip": "O foco é a disposição física, beba água e faça pausas quando necessário."
+            },
+            {
+                "title": "Dia 4 - Rotina Gestante Leve",
+                "video": "SSctsslEj0E",
+                "desc": "Treino integrado de membros superiores e inferiores para realizar em poucos minutos.",
+                "tip": "Foque no controle postural em cada movimento realizado."
+            },
+            {
+                "title": "Dia 5 - Pilates Clínico em Casa",
                 "video": "0H0U1knFGbg",
-                "desc": "Sequência de 8 exercícios seguros para o fortalecimento corporal no início da gestação.",
-                "tip": "Ideal para começar o dia com energia e o corpo fortalecido."
+                "desc": "Aula completa de Pilates para fortalecimento geral do corpo e alongamento.",
+                "tip": "Use a respiração diafragmática para guiar o ritmo do movimento."
             },
             {
-                "title": "Dia 6 - Pilates com Apoio",
+                "title": "Dia 6 - Pilates com Cadeira/Apoio",
                 "video": "KkReQZWLlrg",
-                "desc": "Exercícios de Pilates adaptados para realizar em casa de forma simples.",
-                "tip": "Use o colchonete e preste atenção no alinhamento das costas."
+                "desc": "Aula de Pilates focada em fortalecimento geral em casa usando apoios simples.",
+                "tip": "Concentre-se na estabilidade do seu corpo durante as poses."
             },
             {
-                "title": "Dia 7 - Fortalecimento Geral",
+                "title": "Dia 7 - Pilates para Gestação Leve",
                 "video": "433kz5tGivc",
-                "desc": "Aula de Pilates completa focada em força e flexibilidade para gestantes.",
-                "tip": "Aproveite o final do treino para respirar fundo e relaxar o corpo."
+                "desc": "Fortalecimento completo e alongamentos suaves para finalizar a semana relaxando o corpo.",
+                "tip": "Parabéns por completar o desafio de fortalecimento! Respire e relaxe."
             }
         ]
     }
